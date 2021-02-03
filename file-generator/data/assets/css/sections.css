@@ -1,0 +1,634 @@
+/*!
+ * Customized styling for individual sections for different pages
+ */
+
+/*! -----------------
+ * General styling for sub-pages
+ -------------------- */
+
+.box-title {
+    color: #E91E63 !important;
+    font-family: Montserrat, sans-serif;
+    font-size: 120%;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.box-link:hover {
+    display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+}
+
+.top-padding-10 {
+    padding-top: 10px;
+}
+
+.btm-padding-10 {
+    padding-bottom: 10px;
+}
+
+.referrer-section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn-referrer {
+    margin-top: 0;
+    float: right;
+}
+
+.page-subtitle {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+@media (max-width: 767px) {
+    .btn-referrer {
+        margin-top: 15px;
+        float: left;
+    }
+}
+
+/*! -----------------
+ * Cord Blood
+ -------------------- */
+
+#cord-blood #s2,
+#cord-blood #s4 {
+    background-color: #F1E0E0;
+}
+
+#cord-blood #s2>.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+    #cord-blood #s3 .box {
+        margin-bottom: 35px;
+    }
+}
+
+
+/*! -----------------
+ * Cord Blood Banking
+ -------------------- */
+
+#cord-blood-banking #s2-img {
+    display: none;
+    margin-bottom: 25px;
+}
+
+#cord-blood-banking img {
+    width: 100%;
+}
+
+#cord-blood-banking #s2 .box {
+    margin: 0px auto;
+    padding: 25px 20px 10px;
+    background-color: #EF9A9A;
+    font-weight: bold;
+    min-height: 200px;
+}
+
+#cord-blood-banking #s2 .box p:last-child {
+    padding-bottom: 0;
+}
+
+#cord-blood-banking ol li {
+    font-size: 1.1em;
+    line-height: 26px;
+    color: #424242;
+}
+
+#cord-blood-banking #s2 .bg {
+    background: url('../images/section-2-bg.jpg') no-repeat #CCCCCC;
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+#family-cord-blood-banking .main-btn,
+#public-cord-blood-banking .main-btn {
+    margin: 10px 10px 20px;
+}
+
+.footnote .container {
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+.footnote p {
+    font-size: 11px;
+    line-height: 16px;
+}
+
+@media (max-width: 991px) {
+    #cord-blood-banking #s2 .row:first-child {
+        background-image: none !important;
+        background-color: transparent;
+    }
+
+    #cord-blood-banking #s2-img {
+        display: block;
+    }
+}
+
+@media (max-width: 575px) {
+    #cord-blood-banking #s2 .box {
+        margin-bottom: 25px;
+    }
+}
+
+/*! -----------------
+ * Cord Blood Banking Process
+ -------------------- */
+
+#cord-blood-banking-process #s4 {
+    padding-bottom: 6%;
+}
+
+#cord-blood-banking-process .step-title {
+    margin-top: 15px;
+}
+
+/*! -----------------
+ * Treatment with Cord Blood
+ -------------------- */
+
+/*! -----------------
+ * Public Cord Blood Donation
+ -------------------- */
+
+/*! -----------------
+ * Parents
+ -------------------- */
+
+#parents #s1 ol li {
+    padding-bottom: 5px;
+}
+
+#parents #s1 li {
+    font-size: 18px;
+    line-height: 24px;
+    color: #424242;
+}
+
+#parents #s2 {
+    background-color: #F1E0E0;
+}
+
+#parents .box-link .box {
+    padding: 25px 20px;
+    background-color: #EF9A9A;
+    font-weight: bold;
+}
+
+#parents .box {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+}
+
+#parents #s2 .box p {
+    color: #FFF;
+    line-height: 24px;
+}
+
+#parents #s2 .box .box-desc {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#parents #s2 .box .box-cta {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#parents #s2 .box p:last-child {
+    margin: auto 0 0;
+    padding: 0;
+}
+
+#parents #s3 .box p {
+    margin: 0;
+    padding: 10px 2px;
+}
+
+@media (max-width: 991px) {
+    #parents .box {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    #parents .box-link .box {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 575px) {
+    #parents #s2 .last-box .box {
+        margin-bottom: 0;
+    }
+}
+
+/*! -----------------
+ * Consent Process
+ -------------------- */
+
+#consent-process .step p {
+    margin-top: 0;
+}
+
+/*! -----------------
+ * Eligibility Criteria
+ -------------------- */
+
+#eligibility-criteria ul {
+    margin-top: 0;
+}
+
+#eligibility-criteria ul li {
+    padding-bottom: 5px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #424242;
+}
+
+#eligibility-criteria .content-spacing {
+    margin-top: 1%;
+}
+
+#eligibility-criteria .step-title {
+    margin-bottom: 10px;
+}
+
+#eligibility-criteria form .row [class^="col-"] {
+    margin-bottom: 15px;
+}
+
+#eligibility-criteria .form-group {
+    height: 100%;
+    margin-bottom: 0;
+    padding: 10px 15px;
+    background-color: #e0e0e0;
+}
+
+#eligibility-criteria .form-group>label {
+    margin-bottom: 10px;
+}
+
+#eligibility-criteria .checkbox-inline {
+    display: block;
+    padding: 10px 15px 10px 30px;
+    background-color: #e0e0e0;
+    font-family: Montserrat, sans-serif;
+    line-height: 24px;
+    height: 100%;
+}
+
+#eligibility-criteria .checkbox-inline:hover {
+    background-color: #f2e0e0;
+}
+
+#eligibility-criteria .checkbox-inline input[type=checkbox]:checked {
+    background-color: #f2e0e0;
+}
+
+#eligibility-criteria .main-btn {
+    margin: 0 auto;
+}
+
+#eligibility-criteria .text-red {
+    color: #d50000;
+}
+
+#checkEligibility {
+    display: block;
+    border: none;
+}
+
+#registerFamily,
+#registerPublic {
+    display: none;
+}
+
+/*! -----------------
+ * Participating Hospitals
+ -------------------- */
+
+#participating-hospitals #s1 img,
+#participating-hospitals #s2 img {
+    width: inherit;
+    margin-bottom: 10px;
+}
+
+/*! -----------------
+ * Healthcare Partners
+ -------------------- */
+
+#healthcare-partners #s2 .bg {
+    background: url('../images/healthcare-partners-s2-bg.jpg') no-repeat #CCCCCC;
+    background-size: cover;
+    background-position: 50% 30%;
+}
+
+#healthcare-partners #s2-img {
+    display: none;
+}
+
+#healthcare-partners #s2 .box {
+    padding: 25px 20px 10px;
+    background-color: #EF9A9A;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+#healthcare-partners #s2 .box p {
+    color: #FFF;
+}
+
+#healthcare-partners #s2 .box p:first-child {
+    font-size: 140%;
+}
+
+#healthcare-partners #s2 .box p:last-child {
+    padding-bottom: 0;
+}
+
+@media (max-width: 991px) {
+    #healthcare-partners #s2 .row:first-child {
+        background-image: none !important;
+        background-color: transparent;
+    }
+
+    #healthcare-partners #s2-img {
+        display: block;
+    }
+}
+
+/*! -----------------
+ * Obstetric Doctors and Nurses
+ -------------------- */
+
+#doctors-and-nurses #s2 sup,
+#doctors-and-nurses #s4 sup {
+    font-size: 10px;
+}
+
+#doctors-and-nurses #s3,
+#doctors-and-nurses #s4,
+#doctors-and-nurses #s5 {
+    padding-top: 0;
+}
+
+#doctors-and-nurses #s5 .container {
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+#doctors-and-nurses #s5 p {
+    font-size: 11px;
+    line-height: 16px;
+}
+
+#doctors-and-nurses #s8 li,
+#doctors-and-nurses #s9 li {
+    color: #424242;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+/*! -----------------
+ * About Us
+ -------------------- */
+
+#about-us #s2 {
+    background-color: #F1E0E0;
+}
+
+#about-us #s2 img {
+    width: 100%;
+}
+
+#about-us .box-link .box {
+    padding: 15px 20px;
+    background-color: #EF9A9A;
+    font-weight: bold;
+}
+
+#about-us .box {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+#about-us #s2 .box p {
+    color: #FFF;
+}
+
+#about-us #s2 .box p:last-child {
+    margin: auto 0 0 0;
+    padding: 0;
+}
+
+#about-us #s3 .box p {
+    margin: 0;
+    padding: 10px 2px;
+}
+
+@media (max-width: 991px) {
+    #about-us #s2 .wrapper:first-child .box {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 767px) {
+    #about-us #s2 .wrapper:not(:first-child) .box {
+        margin-top: 0;
+    }
+    .col-20 {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    #about-us #s2 .wrapper:not(:last-child) .box {
+        margin-bottom: 25px;
+    }
+}
+
+/*! -----------------
+ * Benefactors
+ -------------------- */
+
+#benefactors .plain-list {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+    columns: 2;
+}
+
+#benefactors .plain-list li {
+    padding-bottom: 3px;
+    line-height: 23px;
+}
+
+#benefactors .accordion {
+    width: auto;
+}
+
+#benefactors .accordion label {
+    padding-left: 0;
+}
+
+#benefactors .accordion-content {
+    max-height: 1000em;
+    margin: 0;
+    padding-left: 15px;
+    border: 0;
+}
+
+#benefactors input:checked~.accordion-content {
+    max-height: 1000em;
+    margin: 0;
+    padding-left: 15px;
+}
+
+@media (max-width: 767px) {
+    #benefactors .plain-list {
+        columns: 1;
+    }
+    #benefactors .accordion-content {
+        max-height: 0;
+        border-left: 4px dotted #00BCD4;
+    }
+}
+
+/*! -----------------
+ * Forms
+ -------------------- */
+
+.form-section-divider {
+    margin-top: 15px;
+    padding: 0 15px;
+    background-color: #f2e0e0;
+    font-weight: bold;
+}
+
+/*! -----------------
+ * Tree Structure
+ -------------------- */
+
+.tree {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tree ul {
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    position: relative;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.tree li {
+    float: none;
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+    padding: 20px 5px 0 5px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.tree li::before,
+.tree li::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 50%;
+    border-top: 1px solid #ccc;
+    width: 50%;
+    height: 20px;
+}
+
+.tree li::after {
+    right: auto;
+    left: 50%;
+    border-left: 1px solid #ccc;
+}
+
+.tree li:only-child::after,
+.tree li:only-child::before {
+    display: none;
+}
+
+.tree li:only-child {
+    padding-top: 0;
+}
+
+.tree li:first-child::before,
+.tree li:last-child::after {
+    border: 0 none;
+}
+
+.tree li:last-child::before {
+    border-right: 1px solid #ccc;
+    border-radius: 0 5px 0 0;
+    -webkit-border-radius: 0 5px 0 0;
+    -moz-border-radius: 0 5px 0 0;
+}
+
+.tree li:first-child::after {
+    border-radius: 5px 0 0 0;
+    -webkit-border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0;
+}
+
+.tree ul ul::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-left: 2px solid #ccc;
+    width: 0;
+    height: 20px;
+}
+
+.tree li a {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #666;
+    display: inline-block;
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.tree li a:hover,
+.tree li a:hover+ul li a {
+    background: #f2e0e0;
+    color: #000;
+    border-color: #94a0b4;
+}
+
+.tree li a:hover+ul li::after,
+.tree li a:hover+ul li::before,
+.tree li a:hover+ul::before,
+.tree li a:hover+ul ul::before {
+    border-color: #94a0b4;
+}
