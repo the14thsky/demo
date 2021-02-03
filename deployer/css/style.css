@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    padding:0;
+    background:url('../images/cloud-img.png') no-repeat;
+}
+.container {
+    position: absolute;
+    padding: 15% 0;
+    width: 100%;
+    color: white;
+}
+h1 {
+    margin: 0 auto;
+    width: 200px;
+}
+
+video {
+    display: block;
+}
+video #bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background:url('../images/cloud-img.png') no-repeat;
+    background-size: cover;
+}
